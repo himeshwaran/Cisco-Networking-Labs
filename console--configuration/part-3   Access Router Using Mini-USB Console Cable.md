@@ -66,5 +66,4 @@ You should now see:
 ```text
 Router>
 ```
-
----
+![image alt](https://github.com/himeshwaran/Cisco-Networking-Labs/blob/main/console--configuration/images/router%20to%20pc.png)
