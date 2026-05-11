@@ -1,20 +1,17 @@
-# Cisco Packet Tracer - Console Connectivity Lab
+# Cisco Console Connectivity Lab
 
-In this lab, I learned how to access Cisco devices using console connectivity in Cisco Packet Tracer.
+## Overview
 
-## What I Did
+This lab demonstrates how to access Cisco devices using console connectivity in Cisco Packet Tracer.
 
-* Connected a PC to a Cisco 2960 switch using a console cable
-* Accessed the Cisco IOS CLI using Terminal
-* Explored User EXEC and Privileged EXEC modes
-* Used basic commands like:
+The lab includes:
 
-  * show version
-  * show clock
-  * enable
-  * clock set
-* Connected a laptop to a Cisco ISR4321 router using a mini-USB console cable
-* Accessed the router CLI through terminal emulation
+* Switch console access using rollover cable
+* Router console access using mini-USB cable
+* Cisco IOS navigation
+* Basic device configuration
+
+---
 
 ## Devices Used
 
@@ -22,33 +19,116 @@ In this lab, I learned how to access Cisco devices using console connectivity in
 * Cisco ISR4321 Router
 * PC
 * Laptop
-* Console Cable
-* Mini-USB Cable
+
+---
+
+## Connections
+
+### Switch Console Connection
+
+```bash
+PC RS232 Port ---> Switch Console Port
+```
+
+### Router USB Console Connection
+
+```bash
+Laptop USB Port ---> Router Mini-USB Console Port
+```
+
+---
+
+## IOS Modes
+
+| Mode                      | Prompt            |
+| ------------------------- | ----------------- |
+| User EXEC Mode            | `Switch>`         |
+| Privileged EXEC Mode      | `Switch#`         |
+| Global Configuration Mode | `Switch(config)#` |
+
+---
 
 ## Commands Used
 
+```bash
 show version
 show clock
 enable
 clock set 15:28:00 Nov 11 2020
 end
+```
 
-## What I Learned
+---
 
-* Basic Cisco IOS navigation
-* Console connectivity
-* Difference between User EXEC and Privileged EXEC mode
-* Basic switch and router configuration
-* Terminal access using serial and USB console connections
+## Steps Performed
 
-## Security Note
+### 1. Connected PC to Switch
 
-Unauthorized access can be prevented by:
+* Used rollover console cable
+* Opened terminal from PC desktop
+* Accessed Cisco IOS CLI
+
+### 2. Verified IOS Information
+
+```bash
+show version
+```
+
+### 3. Checked System Clock
+
+```bash
+show clock
+```
+
+### 4. Entered Privileged EXEC Mode
+
+```bash
+enable
+```
+
+### 5. Configured Clock
+
+```bash
+clock set 15:28:00 Nov 11 2020
+```
+
+### 6. Connected Laptop to Router
+
+* Used mini-USB console cable
+* Accessed router terminal
+
+---
+
+## Security
+
+Unauthorized console access can be prevented by:
 
 * Setting console passwords
 * Using login authentication
-* Restricting physical access to devices
+* Restricting physical access
+
+Example:
+
+```bash
+line console 0
+password cisco123
+login
+```
+
+---
+
+## Learning Outcome
+
+Through this lab, I learned:
+
+* Cisco IOS navigation
+* Console connectivity
+* Basic switch and router configuration
+* Difference between User EXEC and Privileged EXEC modes
+
+---
 
 ## Author
 
-Himeshwaran E
+**Himeshwaran E**
+Cybersecurity & Networking Enthusiast
