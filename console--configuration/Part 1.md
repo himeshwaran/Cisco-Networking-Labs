@@ -73,3 +73,5 @@ Switch>
 
 This is User EXEC Mode.
 
+![image alt](https://github.com/himeshwaran/Cisco-Networking-Labs/blob/main/console--configuration/switch%20to%20device.png)
+
