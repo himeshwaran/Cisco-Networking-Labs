@@ -7,7 +7,7 @@ show version
 ```
 
 Example Output:
-![image alt]
+![image alt](http://github.com/himeshwaran/Cisco-Networking-Labs/blob/main/console--configuration/images/version.png)
 
 ---
 
@@ -20,7 +20,7 @@ show clock
 ```
 
 Example Output:
-
+ ![image alt](https://github.com/himeshwaran/Cisco-Networking-Labs/blob/main/console--configuration/images/clock.png)
 
 
 ---
