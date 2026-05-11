@@ -1,0 +1,54 @@
+# Cisco Packet Tracer - Console Connectivity Lab
+
+In this lab, I learned how to access Cisco devices using console connectivity in Cisco Packet Tracer.
+
+## What I Did
+
+* Connected a PC to a Cisco 2960 switch using a console cable
+* Accessed the Cisco IOS CLI using Terminal
+* Explored User EXEC and Privileged EXEC modes
+* Used basic commands like:
+
+  * show version
+  * show clock
+  * enable
+  * clock set
+* Connected a laptop to a Cisco ISR4321 router using a mini-USB console cable
+* Accessed the router CLI through terminal emulation
+
+## Devices Used
+
+* Cisco 2960 Switch
+* Cisco ISR4321 Router
+* PC
+* Laptop
+* Console Cable
+* Mini-USB Cable
+
+## Commands Used
+
+show version
+show clock
+enable
+clock set 15:28:00 Nov 11 2020
+end
+
+## What I Learned
+
+* Basic Cisco IOS navigation
+* Console connectivity
+* Difference between User EXEC and Privileged EXEC mode
+* Basic switch and router configuration
+* Terminal access using serial and USB console connections
+
+## Security Note
+
+Unauthorized access can be prevented by:
+
+* Setting console passwords
+* Using login authentication
+* Restricting physical access to devices
+
+## Author
+
+Himeshwaran E
