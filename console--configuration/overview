@@ -1,134 +1,42 @@
-# Cisco Console Connectivity Lab
+# Cisco Packet Tracer - Console Connectivity Lab
 
-## Overview
+## 📘 Overview
+This lab demonstrates how to access Cisco devices through console connectivity using Cisco Packet Tracer. The activity covers:
 
-This lab demonstrates how to access Cisco devices using console connectivity in Cisco Packet Tracer.
+- 🔌 Connecting to a Cisco 2960 switch using a rollover console cable  
+- 💻 Accessing Cisco IOS through terminal emulation  
+- ⚙️ Exploring User EXEC and Privileged EXEC modes  
+- ⏰ Configuring and verifying the system clock  
+- 🔗 Connecting to a Cisco ISR4321 router using a mini-USB console cable  
 
-The lab includes:
-
-* Switch console access using rollover cable
-* Router console access using mini-USB cable
-* Cisco IOS navigation
-* Basic device configuration
-
----
-
-## Devices Used
-
-* Cisco 2960 Switch
-* Cisco ISR4321 Router
-* PC
-* Laptop
+This lab helped strengthen practical networking and Cisco IOS configuration skills.
 
 ---
 
-## Connections
+## 🎯 Objectives
 
-### Switch Console Connection
+### Part 1: Access a Cisco Switch through the Serial Console Port
+- Install and inspect a Cisco 2960 switch  
+- Connect a PC to the switch using a rollover console cable  
+- Access the Cisco IOS CLI through the terminal  
 
-```bash
-PC RS232 Port ---> Switch Console Port
-```
+### Part 2: Display and Configure Basic Device Settings
+- Display IOS version information  
+- View and configure the system clock  
+- Navigate between IOS modes  
 
-### Router USB Console Connection
-
-```bash
-Laptop USB Port ---> Router Mini-USB Console Port
-```
-
----
-
-## IOS Modes
-
-| Mode                      | Prompt            |
-| ------------------------- | ----------------- |
-| User EXEC Mode            | `Switch>`         |
-| Privileged EXEC Mode      | `Switch#`         |
-| Global Configuration Mode | `Switch(config)#` |
+### Part 3: Access a Cisco Router Using a Mini-USB Console Cable
+- Install and inspect a Cisco ISR4321 router  
+- Connect a laptop to the router using a mini-USB cable  
+- Access the router CLI using terminal emulation  
 
 ---
 
-## Commands Used
-
-```bash
-show version
-show clock
-enable
-clock set 15:28:00 Nov 11 2020
-end
-```
-
----
-
-## Steps Performed
-
-### 1. Connected PC to Switch
-
-* Used rollover console cable
-* Opened terminal from PC desktop
-* Accessed Cisco IOS CLI
-
-### 2. Verified IOS Information
-
-```bash
-show version
-```
-
-### 3. Checked System Clock
-
-```bash
-show clock
-```
-
-### 4. Entered Privileged EXEC Mode
-
-```bash
-enable
-```
-
-### 5. Configured Clock
-
-```bash
-clock set 15:28:00 Nov 11 2020
-```
-
-### 6. Connected Laptop to Router
-
-* Used mini-USB console cable
-* Accessed router terminal
-
----
-
-## Security
-
-Unauthorized console access can be prevented by:
-
-* Setting console passwords
-* Using login authentication
-* Restricting physical access
-
-Example:
-
-```bash
-line console 0
-password cisco123
-login
-```
-
----
-
-## Learning Outcome
-
-Through this lab, I learned:
-
-* Cisco IOS navigation
-* Console connectivity
-* Basic switch and router configuration
-* Difference between User EXEC and Privileged EXEC modes
-
----
-
-## Author
-
-**Himeshwaran E**
-Cybersecurity & Networking Enthusiast
+## 🛠️ Tools and Technologies Used
+- Cisco Packet Tracer  
+- Cisco Catalyst 2960 Switch  
+- Cisco ISR4321 Router  
+- Rollover Console Cable  
+- Mini-USB Console Cable  
+- Cisco IOS CLI  
+- Network Topology  
