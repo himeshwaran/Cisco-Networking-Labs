@@ -1,0 +1,41 @@
+## Display IOS Version
+
+Command:
+
+```text
+show version
+```
+
+Example Output:
+![image alt]
+
+---
+
+## Display Current Clock
+
+Command:
+
+```text
+show clock
+```
+
+Example Output:
+
+
+
+---
+
+## Enter Privileged EXEC Mode
+
+Command:
+
+```text
+enable
+```
+
+
+The # symbol indicates Privileged EXEC Mode.
+
+---
+
+
