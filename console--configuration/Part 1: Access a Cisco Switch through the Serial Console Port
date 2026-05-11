@@ -1,0 +1,16 @@
+Part 2 - Basic IOS Configuration
+Display IOS Version
+
+Command:
+show version
+Example Output:
+Cisco IOS Software, C2960-LANBASE-M, Version 12.2(25)FX
+
+
+
+Display Current Clock
+
+Command:
+show clock
+Example Output:
+00:30:05.261 UTC Mon Mar 1 1993
