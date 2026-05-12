@@ -74,5 +74,10 @@ copy running-config startup-config
 PC1> ping 192.168.1.2
 PC1> ping 192.168.1.253
 PC1> ping 192.168.1.254
+```
+
+![image alt](https://github.com/himeshwaran/Cisco-Networking-Labs/blob/main/basic%20connection%20and%20switch%20interface%20management/images/config%20switch.png)
+
+![image alt](https://github.com/himeshwaran/Cisco-Networking-Labs/blob/main/basic%20connection%20and%20switch%20interface%20management/images/finalconfig.png)
 
 
